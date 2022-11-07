@@ -2,11 +2,13 @@ import './Tablecss.css'
 
 export const Custom=()=>
 {
-    
+    const Match={
+        borderRadius:'20px',
+    }
     return(
         <>
         <a href="http://www.oracle.com">oracle</a>
-        <table>
+        <table style={Match}>
             <thead>
                 <tr>
                     <th>Name</th>
