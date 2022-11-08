@@ -13,13 +13,13 @@ function App()
   return (
     <>
     <Custom/>
-    
-    <Mohan/>
+{/*     
+    {/* <Mohan/>
     <Mani/>
 
     <Moha/>
     <Mohan1/>
-    <Mohan2/>
+    <Mohan2/> */} 
 
     </>
   );
