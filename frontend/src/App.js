@@ -4,6 +4,7 @@
 import Mani, { Mohan } from "./basic";
 import Moha, { Mohan1, Mohan2 } from "./basic2";
 import { Sample } from "./bootstrap";
+import { Connectdata } from "./connectrecords";
 import { Custom } from "./css Components";
 import { Photo } from "./parameter";
 import { TernaryOperator } from "./Ternory operator";
@@ -17,7 +18,8 @@ function App()
 {
   return (
     <>
-    <TernaryOperator/>
+    <Connectdata/>
+    {/* <TernaryOperator/> */}
     {/* <Justnumber/> */}
     {/* <Firsthooks/> */}
     {/* <Sample/> */}
